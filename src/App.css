@@ -1,0 +1,29 @@
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text {
+  font-size: 2rem;
+}
+
+#imdb-logo {
+  color: #f5de50;
+}
+
+.btn-warning {
+  background-color:#f5de50;
+}
+
+#user-logo {
+  color:#f5df50;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
