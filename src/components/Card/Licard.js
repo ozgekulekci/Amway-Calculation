@@ -6,9 +6,9 @@ function Licard(props) {
             <div>
                 <h5 className="ng-binding">
                     <span className="text-primary icon-user" aria-hidden="true"></span>
-                    <input type="text" value="Input" onChange={props.onChangeName} /><br />
+                    <input type="text" value={props.name} onChange={props.onChangeName} /><br />
                     <small>Self BV: </small>
-                    <input type="number" onChange={props.onChangeNumber} /><br />
+                    <input type="number" value={props.bv} onChange={props.onChangeNumber} /><br />
                     <small>Total: </small>0<br />
                 </h5>
                 <a href="#" title="Add a new downline" className="add-button" onClick={props.onClickAdd}><span className="label label-success">+</span></a>
